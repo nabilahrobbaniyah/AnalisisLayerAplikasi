@@ -6,9 +6,7 @@
 4 TLS server hello
 5 DNS query
 6 DNS response
-7 SMTP command
-8 IMAP packet
-9 QUIC streaming packet
-10 RTP packet
-11 RTP stream analysis
-12 Chat TLS packet
+7 SMTP/IMAP
+8 QUIC streaming packet
+9 RTP 
+10 Chat TLS packet
