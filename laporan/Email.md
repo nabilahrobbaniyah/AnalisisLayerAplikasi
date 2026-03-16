@@ -1,42 +1,12 @@
-Percobaan Email
+## Percobaan Email
 
-Aktivitas:
-gunakan Gmail atau Outlook.
-Start capture
-kirim email ke diri sendiri
-refresh inbox
-stop capture
+# percobaan ke-2
+![percobaan ke-2 email](assets/image-3.png)
 
-Filter:
-smtp
-imap
-pop
-
-Data yang harus dicatat:
-SMTP command
-HELO
-MAIL FROM
-RCPT TO
-DATA
-
-IMAP command
-LOGIN
-FETCH
-
-Port yang digunakan
-SMTP 25 / 587
-IMAP 143 / 993
-
-Screenshot yang harus ada:
-
-SMTP command
-
-email transfer sequence
-
-Analisis:
-
-Jelaskan proses:
+Source Port: 55060
+Destination Port: 587
+Packet Length: 56 bytes
+jumlah paket: 56
 
 Client → SMTP server (mengirim email)
-
 Client → IMAP server (mengambil email)

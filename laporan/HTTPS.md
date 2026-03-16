@@ -1,41 +1,15 @@
-Percobaan HTTPS
+# Percobaan HTTPS
 
-Aktivitas:
-Buka website misalnya
-![alt text](image-2.png)
-https://google.com
+## langkah-langkah
+1. jalankan capture
+2. buka https://google.com di chrome
+3. stop capture
+4. filter: tls
 
-Filter:
-tls
-
-Data yang harus diambil:
-
-TLS Version
-
-Handshake Type
-
-Cipher suite
-
-Server Name Indication
-
-Destination port 443
-
-Screenshot yang harus ada:
-
-Client Hello
-
-Server Hello
-
-Encrypted Application Data
-
-Analisis yang harus ditulis:
-
-Perbedaan dengan HTTP:
-
-HTTP:
-payload bisa dibaca
-
-HTTPS:
-payload terenkripsi
-
-Sebutkan bahwa komunikasi menggunakan TLS handshake sebelum data dikirim.
+## hasil percobaan
+1. Baris TLS handshake awal
+![https.1](assets/image.png)
+2. Baris respon server
+![https.2](assets/image-1.png)
+3. Baris transfer data terenkripsi
+![https.3](assets/image-2.png)
